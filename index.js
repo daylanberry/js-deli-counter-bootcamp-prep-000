@@ -1,4 +1,5 @@
 function takeANumber(currentLine, name){
+  currentLine.push(name);
   return `Welcome, ${name}. You are number ${currentLine.indexOf(name) + 1} in line.`
 }
 
